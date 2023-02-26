@@ -6,6 +6,9 @@
     margin: 0px;
     font-family: 'Noto Sans', sans-serif;
   }
+  body *{
+    box-sizing: border-box;
+  }
 
  
 .main-login {
@@ -18,6 +21,7 @@
 
 }
 .left-login{ 
+    margin-bottom: 8%;
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -27,6 +31,7 @@
 
 }
 .left-login >h1 {
+    font-size: 3vw;
     color: white;
 }
 .right-login{ 
@@ -53,6 +58,9 @@
     font-weight: 800;
     margin: 0px
 
+}
+.imggpt{
+    width:20vw;
 }
 .text-field{ 
     width: 100%;
@@ -95,6 +103,29 @@ color: rgb(2, 26, 26);
     background: rgb(1, 66, 66);
     cursor: pointer;
     box-shadow: 0px 2px 20px -12px rgba(15, 15, 15, 0.507);
-
-
 }
+ @media (max-width:950px){
+    .card-login{
+        width: 85%;
+        }   
+ }
+
+ @media (max-width:600px){
+    .main-login{ 
+        flex-direction: column;
+    }   
+    .left-login >h1{
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+ .card-login{
+    width: 90%;
+ }
+ }
