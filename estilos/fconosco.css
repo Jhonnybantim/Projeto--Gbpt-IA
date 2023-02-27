@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+  
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:  rgb(1, 66, 66);
+    width: 100w;
+    height: 10vh;
+    margin-bottom: 7px;
+}
+header >h1{ 
+    text-align: center;
+    color: white;
+
+
+
+}
+fieldset{
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.527);
+    width: 88vw;
+    height: 35vh;
+   }
+fieldset>legend {
+    font-size: 20px;
+    }
+
+input {
+    margin: 3px;
+    width: 75vw;
+    padding: 4px;
+    border-radius: 7px;
+    
+ 
+
+}
+   textarea{
+    display: grid;
+    width: 90vw;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.527);
+
+   }
+ input.enviar {
+    position: relative;
+    margin: 10px;
+    padding: 8px;
+    width: 90vw;   
+    left: 1vw;
+    font-size: 20px;
+ }
+ input.enviar:hover{
+    background-color: rgb(1, 66, 66) ;
+    color: white;
+    cursor: pointer;
+ }

@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/fconosco.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1> Entre em contato</h1>
+        <img src="imagens/logo da.png" alt="">
+    </header>
+    <form action="formgpt.pht" method="post" autocomplete="on" enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>Viaje para o Futuro:</legend>
+
+            <label> Nome: <br>
+                <input type="text" name="name" minlength="2" maxlength="80" placeholder=" Seu nome " required > 
+            </label><br>
+
+            <label>Email:<br>
+                <input type="email" name="email" placeholder="Seu e-mail." required>
+            </label><br>
+
+            <label>Telefone: <br>
+                <input type="number" name="telefone" placeholder="(--) * ****-****">
+            </label><br>
+
+            <label> Seus documentos:
+                <input type="file" name="imagen">
+            </label>
+        </fieldset><br>
+
+        <label>Envia a sua mensagem:
+            <textarea name="" id="" cols="45" rows="15"></textarea>
+        </label>
+
+        </form>
+
+        <input type="submit" value="ENVIAR"  class="enviar">
+
+   
+
 </body>
+
 </html>
