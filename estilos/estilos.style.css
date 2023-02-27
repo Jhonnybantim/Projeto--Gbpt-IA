@@ -89,7 +89,18 @@
 }
 .text-field > input ::placeholder{
 color: rgb(2, 26, 26);
+
+
 }
+
+
+.btn-login > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+    
+} 
 .btn-login { 
     width: 100%;
     padding: 16px 0px;
@@ -109,7 +120,9 @@ color: rgb(2, 26, 26);
 }
 .btn-login:hover{
     background-color: aquamarine;
+    color: rgb(0, 20, 20);
 }
+
 
 
 
