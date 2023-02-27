@@ -106,9 +106,14 @@ picture> img{
   width: 14vw;
   position: absolute;
   
-  
+  }
+.carinha{ 
+  top: 67vh;
+  width: 40vw;
+  left: 30vw;
+  text-align: center;
+  position: absolute;
 }
-
  
 
 
@@ -127,7 +132,7 @@ footer>section {
 section#Redes-sociais img {
   padding: 1px;
   position: relative;
-  left: 11%;
+  left: 15%;
   width: 40px;
   margin: 2px;
   margin-top: 30px;
@@ -142,6 +147,11 @@ section#Redes-sociais img:hover {
   transform: translate(-3px, -3px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
   transition: transform 0.3s;
+}
+
+footer>section > a {
+ text-decoration: none;
+    
 }
  /*Tamanho apra tabllet*/
 @media (max-width:600px) {
