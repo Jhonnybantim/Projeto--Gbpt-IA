@@ -31,6 +31,7 @@
 
 }
 .left-login >h1 {
+    width: 100vw;
     font-size: 3vw;
     color: white;
 }
@@ -103,7 +104,18 @@ color: rgb(2, 26, 26);
     background: rgb(1, 66, 66);
     cursor: pointer;
     box-shadow: 0px 2px 20px -12px rgba(15, 15, 15, 0.507);
+
+    
 }
+.btn-login:hover{
+    background-color: aquamarine;
+}
+
+
+
+
+
+
  @media (max-width:950px){
     .card-login{
         width: 85%;

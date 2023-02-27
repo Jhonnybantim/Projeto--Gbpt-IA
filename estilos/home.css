@@ -2,124 +2,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 
- 
+
 * {
-    margin: 0px;
-    padding: 0px;
-}
-
-img#logohome { 
-    top: 45px;
-    width: 20vw;
-    position: absolute;
-    size: 50%;
-    left: 80%;} 
-body{ 
-    background-color: rgb(64, 133, 133);
-        width: 100vw;
-    height: 100vh;
-    margin: 0px;
-    font-family: 'Noto Sans', sans-serif;
-  }
-  body *{
-    box-sizing: border-box;
-  }
-  header#cabeca { 
-    background:rgb(1, 66, 66);
-    width: 100vw;
-    height: 170px;
-    
-  }
-header >  h1 {
-    font-family: 'Noto Sans', sans-serif;
-    box-sizing: border-box;
-    width: 100%;
-    font-size: 35px;
-    top: 5px;
-margin: auto;
-text-align: center;
-font-weight: bold;
-    color: white;
-    padding: 5px;
-}
- p {
-    text-align: center;
-    color: white;
-}
-  header > nav > a {
-    width: 25px;
-    margin: 2px;
-    background-color: rgba(245, 245, 220, 0.253);
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(252, 252, 252);
-    padding: 10px;
-    border-radius: 5px;
-       
-  }
-
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
   
+}
 
-  a:hover {
-    background-color: rgba(245, 245, 220, 0.253);
-    text-decoration: underline;
-    color: rgb(3, 53, 26);
-    border-radius: 10px;
-  }
-  header{
-    margin: auto;
-    width: 900px;
-    background: rgb(1, 66, 66);
-  }
 
-  nav{
-    width: 100%;
-    top: 20%; 
-    left: 10%;
-    position: absolute;
-    padding: 10px;
+body {
+  background-color: rgb(64, 133, 133);
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  font-family: 'Noto Sans', sans-serif;
+  box-sizing: border-box;
+}
 
-    
-  }
+header {
+  height: 15vh;
+  width: 100vw;
+  margin: auto;
+  background: rgb(1, 66, 66);
+}
 
-  main{ 
-    margin: auto;
-    background-color: white;
-    width: 800px;
-    height: 850px;
-    border-radius: 0px 0px 20px 20px;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.527);
-  }
-  footer > section{
-    height: 150px;
-    background-color: rgb(1, 66, 66);
-    position: absolute;
-  }
+header#cabeca {
+  background: rgb(1, 66, 66);
+  width: 100vw;
+  height: 130px;
 
-section#Redes-sociais {
-position: relative;
-margin-bottom: auto;
+}
 
+header>h1 {
+  font-family: 'Noto Sans', sans-serif;
+  width: 100vw;
+  font-size: 5vh;
+  margin-top: 2vh;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+}
+
+p {
+  bottom: 25%;
+  position: relative;
+  font-size: 2.5vw;
+  color: white;
+  text-align: center;
+}
+main {
+  margin: auto;
+  background-color: white;
+  width: 80vw;
+  height: 70vh;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.527);
+}
+main> nav {
+  left: 15%;
+  text-align: center;
+  width: 60vw;
+  font-size: 60px;
+  position: absolute;
+  padding: 15px;
+ 
+ 
 
 
 }
+
+main >nav> a {
+  display: block;
+  margin: 3px;
+  text-align: center;
+  width: 55vw;
+  background-color: rgba(102, 102, 15, 0.493);
+  font-size: 3vh;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(2, 83, 52);
+  padding: 18px;
+  border-radius: 15px;
+
+}
+
+
+main>nav>a:hover {
+  background-color: rgba(245, 245, 220, 0.253);
+  text-decoration: underline;
+  color: rgb(3, 53, 26);
+  border-radius: 10px;
+}
+
+picture> img{ 
+  top: 70vh;
+  left: 42vw;
+  text-align: center;
+  width: 14vw;
+  position: absolute;
+  
+  
+}
+
+ 
+
+
+
+footer>section {
+  height: 30vh;
+  background-color: rgb(1, 66, 66);
+
+}
+
 
 section#Redes-sociais img {
-    position: relative;
-    left: 36%;
-    width: 40px;
-    margin-top:   30px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
-    box-sizing: border-box;
-
-
+  padding: 1px;
+  position: relative;
+  left: 6%;
+  width: 45px;
+  margin: 10px;
+  margin-top: 30px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+  box-sizing: border-box;
+ 
 }
 
 section#Redes-sociais img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.683);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
-    transition: transform 0.3s;
+  border: 2px solid rgba(255, 255, 255, 0.683);
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
+  transition: transform 0.3s;
+}
+ /*Tamanho apra tabllet*/
+@media (max-width:600px) {
+  
+
 }
