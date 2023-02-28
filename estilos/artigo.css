@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+
+body,html{
+    margin: 10px;
+    width: 90vw;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin: 1px;
+    text-align: justify;
+    text-indent: 25px;
+}
