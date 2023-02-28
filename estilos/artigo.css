@@ -2,16 +2,43 @@
 
 
 
-body,html{
+body,
+html {
     margin: 10px;
     width: 90vw;
     height: 100vh;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-p{
+
+p {
     margin: 1px;
     text-align: justify;
     text-indent: 25px;
+}
+
+footer {
+    font-weight: bold;
+    width: 80vw;
+    height: 50px;
+    background-color: #16411aa9;
+    padding: 20px;
+}
+
+.viva {
+    text-align: center;
+}
+
+a {
+font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    padding: 10px;
+    background-color: rgb(3, 53, 26);
+    border-radius: 10px;
 }
