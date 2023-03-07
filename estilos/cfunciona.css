@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+.box{
+    background-color: rgb(80, 77, 77);
+    width:50%
+}
+
+
+.box-interno {
+    width:50%;
+  
+    background-color: rgb(10, 10, 10);
+}
